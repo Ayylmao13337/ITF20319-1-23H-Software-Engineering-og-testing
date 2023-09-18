@@ -1,0 +1,4 @@
+@startuml
+person -> person2: Hello
+
+@enduml
