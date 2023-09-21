@@ -3,19 +3,12 @@ left to right direction
 :Main-Admin: as Admin
 :Bruker: as Bruker 
 
-
-
-
 Admin --> (Administrere brukerprofiler)
 Admin --> (Administrere abonnement)
 Admin --> (Håndtere tilbakemeldinger og klager)
 Admin --> (Administrere systeminnstillinger)
 Admin --> (Legge til og redigere innhold)
 note right of Admin : WOW DETTE DIAGRAMMET ER SÅ BRA DET BØR BESTÅ
-
-
-
-
 
 
 Bruker --> (Se anbefalt innhold)

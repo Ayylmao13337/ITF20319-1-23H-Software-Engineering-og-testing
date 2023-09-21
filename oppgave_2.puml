@@ -1,0 +1,33 @@
+@startuml oppgave_2
+skinparam actorStyle awesome
+
+left to right direction
+
+:Bruker: as Bruker
+
+Bruker --> (Søke etter mediainhold)
+Bruker --> (Annmeldese på medieinnhold)
+Bruker --> (Adminstrere kontoen)
+
+(Adminstrere kontoen) --> (Forandre på innsilinger)
+(Adminstrere kontoen) --> (Forandre betalingsmåte)
+(Adminstrere kontoen) --> ()
+(Annmeldese på medieinnhold) --> (Se hva andre mener om medie)
+(Annmeldese på medieinnhold) --> (Lese om hva andre mener)
+
+(Søke etter mediainhold) --> (Kategorier)
+(Søke etter mediainhold) --> (Populært)
+(Søke etter mediainhold) --> (Se senere)
+(Søke etter mediainhold) --> (Anbefalt)
+
+(Kategorier) --> (Se på medieinnhold)
+(Populært) --> (Se på medieinnhold)
+(Se senere) --> (Se på medieinnhold)
+(Anbefalt) --> (Se på medieinnhold)
+
+
+
+
+
+
+@enduml

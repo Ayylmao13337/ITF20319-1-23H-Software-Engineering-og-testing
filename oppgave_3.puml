@@ -1,0 +1,24 @@
+@startuml oppgave_3
+Bruker -> Front_end : Skriver inn kortinformasjon
+Front_end -> Front_end : Sjekker at det oppfyller kravene for å være et kredittkort
+Front_end --> Back_end : Sender dataen til back end 
+activate Back_end #FFBBBB
+Back_end -> Back_end : Kjører en funksjon som sender dataen til banken
+activate Back_end #Black
+Back_end -> Bank : Sender informasjonen til banken
+
+group Bank
+alt Informasjonen er riktig
+Bank -> Back_end : Banken godkjenner informasjonen og sender det til back end
+Back_end -> Front_end : Back end sier at det er godkjent til front end 
+Front_end -> Bruker : Brukeren blir sendt videre til innholdssiden som han har tilgang til nå
+else Informasjonen er feil eller ikke nok likvid på kontoen
+Bank -> Back_end : Banken godkjenner ikke kredittkortet
+deactivate Back_end
+Back_end -> Front_end : Back end sender denne informasjonen til front end 
+deactivate Back_end
+Front_end -> Bruker : Brukeren får en melding om at det er et problem og får ikke tilgang til aplikasjonen
+
+
+end
+@enduml
