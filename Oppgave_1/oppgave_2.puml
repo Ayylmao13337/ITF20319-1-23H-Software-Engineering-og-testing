@@ -8,12 +8,21 @@ left to right direction
 Bruker --> (Søke etter mediainhold)
 Bruker --> (Annmeldese på medieinnhold)
 Bruker --> (Adminstrere kontoen)
+Bruker --> (Serveren kan bli koblet til fra internette)
+
+
 
 (Adminstrere kontoen) --> (Forandre på innsilinger)
 (Adminstrere kontoen) --> (Forandre betalingsmåte)
-(Adminstrere kontoen) --> ()
+(Forandre betalingsmåte) --> (Endre på hvilken konto skal bli trukket i fra)
+(Adminstrere kontoen) --> (Forandre på abonemente)
+(Forandre på abonemente) --> (Avslutte abonemente)
+(Forandre på abonemente) --> (Hvilken mediapakke brukeren vil ha)
+
 (Annmeldese på medieinnhold) --> (Se hva andre mener om medie)
 (Annmeldese på medieinnhold) --> (Lese om hva andre mener)
+(Annmeldese på medieinnhold) --> (Skrive en kommentar)
+(Annmeldese på medieinnhold) --> (Gi en annmeldese på mediet)
 
 (Søke etter mediainhold) --> (Kategorier)
 (Søke etter mediainhold) --> (Populært)

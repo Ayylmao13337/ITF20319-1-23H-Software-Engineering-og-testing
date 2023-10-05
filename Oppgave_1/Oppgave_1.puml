@@ -8,13 +8,12 @@ Admin --> (Administrere abonnement)
 Admin --> (Håndtere tilbakemeldinger og klager)
 Admin --> (Administrere systeminnstillinger)
 Admin --> (Legge til og redigere innhold)
-note right of Admin : WOW DETTE DIAGRAMMET ER SÅ BRA DET BØR BESTÅ
 
 
 Bruker --> (Se anbefalt innhold)
 Bruker --> (søke etter medieinnhold)
-Bruker --> (Opprette_og_administrere_brukerprofil)
-Opprette_og_administrere_brukerprofil --> (Abonnere_og_administrere_abonnement)
+Bruker --> (Opprette og administrere brukerprofil)
+(Opprette og administrere brukerprofil) --> (Abonnere og administrere abonnement)
 Bruker --> (Vurdere og gi tilbakemelding på innhold)
 Bruker --> (Velge og spille av medieinnhold)
 
