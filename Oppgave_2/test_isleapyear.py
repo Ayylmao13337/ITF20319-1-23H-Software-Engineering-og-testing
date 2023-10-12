@@ -7,7 +7,7 @@ def test_isLeapYear_when_its_divisible_with_4_but_not_100():
     assert isLeapYear(1996) == True
     assert isLeapYear(4) == True
     assert isLeapYear(1200) == True
-    assert isLeapYear(2096) == False
+    assert isLeapYear(2096) == True
 
 def test_isLeapYear_is_not_divisible_with_4():
     assert isLeapYear(1955) == False
