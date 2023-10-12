@@ -1,5 +1,6 @@
 {
     "python.testing.pytestArgs": [
+        "Oppgave_3",
         "Oppgave_2"
     ],
     "python.testing.unittestEnabled": false,

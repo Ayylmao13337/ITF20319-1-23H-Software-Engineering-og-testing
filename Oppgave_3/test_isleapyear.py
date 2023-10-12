@@ -1,4 +1,3 @@
-import pytest
 from Oppgave_3.Isleapyear import *
 
 def test_isLeapYear_when_its_divisible_with_4_but_not_100():
