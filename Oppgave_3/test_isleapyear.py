@@ -1,7 +1,7 @@
 import pytest
-from Isleapyear import *
+from Oppgave_3.Isleapyear import *
 
-
+Oppgave_3\Isleapyear.py
 def test_isLeapYear_when_its_divisible_with_4_but_not_100():
     assert isLeapYear(2004) == True
     assert isLeapYear(1996) == True
